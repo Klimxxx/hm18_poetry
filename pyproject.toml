@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qaguru-homework18-poetry"
+version = "0.1.0"
+description = "this test task for creating Poetry"
+authors = ["Klim Trotsenko <klim.trotsenko7@gmail.com>"]
+license = "None"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.11"
+selene = "^2.0.0rc4"
+selenium = "^4.14.0"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
